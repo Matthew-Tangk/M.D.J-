@@ -1,0 +1,277 @@
+/*****************/
+/******HOME*******/
+/*****************/
+
+
+/*****************/
+/******NAV*******/
+/*****************/
+
+body {
+    background-color: #160806;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    position: fixed;
+    z-index: 4;
+}
+
+header img {
+    width: 8em;
+    height: 9em;
+    flex-grow: 0.5;
+    padding-left: 3em;
+
+}
+
+
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    padding-right: 10em;
+    justify-content: flex-end;
+    font-family: 'Macondo', cursive;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 3em;
+}
+
+nav ul li a:hover {
+    color: #C96464;
+
+}
+
+
+/*****************/
+/***MAIN HOME*****/
+/*****************/
+
+section {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+
+.text {
+    display: inline-block;
+    padding-top: 6.5em;
+    padding-left: 3em;
+    margin-right: 10em;
+    margin-left: 5%;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+h2 {
+    display: flex;
+    font-size: 2em;
+
+    color: white;
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+p {
+    color: white
+}
+
+section img {
+    padding: 0 3em;
+    width: 38em;
+    height: 40em;
+
+}
+
+button {
+    font-size: 15px;
+    color: #C96464;
+    background: none;
+    border-color: #C96464;
+    border-style: solid;
+    border-radius: 42px;
+    padding: 0.6em 1.3em;
+    margin-top: 2em;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+button:hover {
+    background-color: #C96464;
+    color: black;
+}
+
+/*****************/
+/***MAIN EXAMPLES*****/
+/*****************/
+
+main div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+main div img {
+    height: 15em;
+}
+
+main div img:nth-of-type(2) {
+    height: 7.5em;
+    padding-top: 3.7em;
+}
+
+
+
+#my_work {
+    display: block;
+    margin: auto;
+
+
+    font-size: 15px;
+    color: #C96464;
+    background: none;
+
+    border-color: #C96464;
+    border-style: solid;
+    border-radius: 42px;
+    padding: 0.6em 1.3em;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+#my_work:hover {
+    background-color: #C96464;
+    color: black;
+}
+
+main a {
+    text-decoration: none;
+}
+
+/*****************/
+/*****FOOTER******/
+/*****************/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 7em;
+    padding-bottom: 2em;
+}
+
+footer img {
+    width: 3.25em;
+    height: 3em;
+    transition: width 0.5s, height 0.5s;
+}
+
+footer img:hover {
+    width: 4.25em;
+    height: 4em;
+}
+
+/*******************/
+/*****ABOUT ME******/
+/*******************/
+
+[src="./images/about_me/about_me_stripes.png"] {
+    padding-top: 2em;
+    width: 35em;
+}
+
+/*******************/
+/*****PORTFOLIO******/
+/*******************/
+
+.portfolioGD {
+
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolioGD img {
+
+    filter: blur(10px);
+
+    width: 22em;
+    height: 20em;
+}
+
+.portfolioGD p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+    position: absolute;
+    z-index: 1;
+}
+
+.portfolioGD a {
+
+
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 150px;
+}
+
+.portfolioWD {
+
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolioWD img {
+
+    filter: blur(10px);
+
+    width: 22em;
+    height: 20em;
+}
+
+.portfolioWD p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.button2 {
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 10em;
+}
+
+/*************************/
+/*****GRAPHIC DESIGN******/
+/*************************/
+
+.img_gd {
+    display: block;
+    margin-top: 3em;
+}
+
+.img_gd img {
+    height: 5em;
+}
+
+.img_gd img:nth-of-type(2){
+    padding-top: 0;
+}
