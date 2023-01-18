@@ -67,6 +67,7 @@ section {
     display: inline-block;
     padding-top: 6.5em;
     padding-left: 3em;
+    padding-bottom: 1em;
     margin-right: 10em;
     margin-left: 5%;
     font-family: 'Nunito', sans-serif;
@@ -252,12 +253,7 @@ footer img:hover {
 }
 
 
-.button2 {
-    position: absolute;
-    z-index: 1;
 
-    margin-top: 10em;
-}
 
 /*************************/
 /*****GRAPHIC DESIGN******/
@@ -318,6 +314,86 @@ footer img:hover {
 .otherworksgd {
     display: block;
     padding-top: 3em;
+}
 
+/*************************/
+/******WEB DESIGN*********/
+/*************************/
 
+.img_wd{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
+.img_wd img{
+    height: 20em;
+    padding-bottom: 2em;
+}
+
+[src= "./images/portfolio_img/prof_e_overview_small.png"]{
+    height: 4em;
+    width: 12em;
+}
+
+[src= "./images/portfolio_img/prof_e_details_small.png"]{
+    height: 4em;
+    width: 12em;
+}
+
+.wd {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.link_wd{
+    color: white;
+    text-decoration: underline;
+}
+
+.link_wd:hover{
+    color:#44bcd8;
+}
+
+.wdshia{
+    display: block;
+    margin: auto;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+
+.img_wd4 {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_wd4 img {
+    width: 12em;
+    height: 20em;
+    padding: 0;
+
+}
+
+/***********************/
+/*******CONTACT*********/
+/***********************/
+
+.text2{
+    display: inline-block;
+    padding-top: 6.5em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    margin-right: 10em;
+    margin-left: 5%;
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.li{
+    color: white;
+    text-decoration: underline;
 }
